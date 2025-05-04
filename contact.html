@@ -14,7 +14,6 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -33,27 +32,55 @@
         <img src="img/lam.png" alt=""/>
       </div>
 
-      <nav class="nagivation-links" id="nav-links">
-        <a href="#index">portfolio</a>
-        <a href="#about">about</a>
-        <a href="#contact">contact</a>
+      <nav class="navigation-links">
+        <a href="index.html" class="nav-link">portfolio</a>  
+        <a href="about.html" class="nav-link">about</a>  
+        <a href="contact.html" class="nav-link">contact</a> 
       </nav>
     </header>
 
     <main>
-      <section id="home">
-
-        <div class="hero">
-          <img class="main-image" src="img/hero.png" alt=""/>
-        </div>
-
+      <section class="contact-page">
+        <div class="contact-header">
+          <div class="contact-me">
+            <h2>want to work together?<br/>contact me!</h2>
+            <img src="img/flower.png" alt="">
+            <a href="mailto:truclamhho@gmail.com">truclamhho@gmail.com</a> |
+            <a href="https://www.linkedin.com/in/truclamho/" target="_blank">LinkedIn</a>
+          </div>
       
-
+          <div class="contact-form-box">
+            <form class="contact-form">
+              <label for="name">name</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="email">email</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="phone">phone number</label>
+              <input type="tel" id="phone" name="phone">
+      
+              <label for="message">message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+      
+              <button type="submit">contacting</button>
+            </form>
+          </div>
+        </div>
       </section>
-
-
+      
     </main>
   </div>
+
+  <footer class="footer">
+    <img src="img/lam.png" alt="" class="footer-logo" />
+    <p class="footer-title">portfolio</p>
+    <div class="footer-contact">
+      <a href="mailto:truclamhho@gmail.com">truclamhho@gmail.com</a> |
+      <a href="https://www.linkedin.com/in/truclamho/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+  
   
   <script src="js/main.js"></script>
 </body>
