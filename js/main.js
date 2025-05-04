@@ -71,5 +71,15 @@ document.addEventListener("DOMContentLoaded", () => {
     lightbox.addEventListener('click', () => {
       lightbox.style.display = 'none';
     });
+
+
+    function printPortfolio() {
+        var printWindow = window.open('docs/portfolio.pdf', '_blank');
+        
+        printWindow.onload = function() {
+            printWindow.print();
+        };
+    }
+    
   });
   

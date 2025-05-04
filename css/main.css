@@ -659,11 +659,15 @@ main {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-starrt;
+  position: relative;
+  top: -75%;
+  left: -45%;
 }
 
 .portfolio-links a,
 .portfolio-links button {
+
   background-color: #222;
   color: white;
   padding: 10px 16px;
