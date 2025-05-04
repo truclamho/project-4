@@ -109,13 +109,18 @@ main {
 }
 
 .hero-text h1 {
+  font-family: "sofia-pro-soft", sans-serif;
   font-size: 120px;
   margin-bottom: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
+
 }
 
 .typewriter span {
+  margin-left: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   font-size: 18px;
+  font-weight: 800;
   white-space: pre; 
   overflow: hidden;
   display: inline-block;
@@ -312,7 +317,7 @@ main {
     margin-bottom: 20px;
     margin-left: 90px;
     margin-top: 90px;
-    color: #FFF8BD;
+    color: #537A57;
   }
   
   .section-heading::after {
@@ -323,7 +328,7 @@ main {
     transform: translateX(-50%);
     width: 170px; 
     height: 2px;
-    background-color: #FFF8BD;
+    background-color: #537A57;
     ;
   }
   
@@ -1102,6 +1107,7 @@ ul.custom-dash-list li::before {
     margin-top: 60px;
     margin-bottom: 10px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    font-family: ;
   }
 
   .typewriter span {
