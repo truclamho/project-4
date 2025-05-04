@@ -320,7 +320,30 @@ main {
     margin-top: 90px;
     color: #537A57;
   }
+
+  .section-heading-about {
+    font-family: "sofia-pro-soft", sans-serif;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-top: 90px;
+    color: #f0f0f0;
+  }
+
+  .section-heading-about::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%);
+    width: 170px; 
+    height: 2px;
+    background-color: #f0f0f0;
+  }
   
+
   .section-heading::after {
     content: "";
     position: absolute;
@@ -330,7 +353,6 @@ main {
     width: 170px; 
     height: 2px;
     background-color: #537A57;
-    ;
   }
   
 
@@ -1108,7 +1130,6 @@ ul.custom-dash-list li::before {
     margin-top: 60px;
     margin-bottom: 10px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
-    font-family: ;
   }
 
   .typewriter span {
