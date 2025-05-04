@@ -1,4 +1,3 @@
-/* Global container margin */
 html, body {
   height: 100%;
   margin: 0;
@@ -30,7 +29,6 @@ main {
 
   }
 
-/* Navigation link styles */
 .navigation-links {
     position: relative;
     display: flex;
@@ -45,7 +43,6 @@ main {
     font-weight: 500;
 }
 
-/* Underline base */
 .nav-link::after {
     content: "";
     position: absolute;
@@ -59,22 +56,18 @@ main {
     transition: transform 0.3s ease;
 }
 
-/* Show underline on hover */
 .nav-link:hover::after {
     transform: scaleX(1);
 }
 
-/* Active underline */
 .nav-link.active::after {
     transform: scaleX(1);
 }
 
-/* Change text color for active link */
 .nav-link.active {
     color: #6FA076;
 }
 
-/* Prevent underline from appearing on active link if hovered */
 .nav-link.temp-remove::after {
     transform: scaleX(0);
 }
@@ -107,18 +100,18 @@ main {
 
 .intro {
   display: flex;
-  align-items: center; /* Vertically centers the items */
-  justify-content: space-between; /* Ensures space between text and image */
+  align-items: center; 
+  justify-content: space-between; 
   padding: 210px 200px 0 200px;
-  gap: 40px; /* Space between the text and image */
+  gap: 40px; 
 }
 
 .intro-container {
-  flex: 1; /* Makes the text container flexible */
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 50%; /* Keeps the text container from taking too much space */
+  max-width: 50%; 
 }
 
 .intro-heading {
@@ -138,16 +131,16 @@ main {
 }
 
 .headshot {
-  flex-shrink: 0; /* Prevents shrinking */
+  flex-shrink: 0; 
   display: flex;
-  justify-content: flex-start; /* Aligns the image to the left */
-  align-items: center; /* Vertically centers the image */
-  max-width: 50%; /* Limits the width of the image container */
+  justify-content: flex-start; 
+  align-items: center; 
+  max-width: 50%; 
 }
 
 .headshot img {
   width: 100%;
-  max-width: 400px; /* Limits the image width */
+  max-width: 400px; 
   height: auto;
 }
 
@@ -160,17 +153,17 @@ main {
     }
   
     .text-container {
-      max-width: 100%; /* Allow text to take full width */
-      align-items: center; /* Center-align the text */
+      max-width: 100%; 
+      align-items: center; 
     }
   
     .headshot {
-      width: 60%; /* Adjust image container width for smaller screens */
-      justify-content: center; /* Center the image */
+      width: 60%; 
+      justify-content: center;
     }
   
     .headshot img {
-      width: 100%; /* Adjust image size for smaller screens */
+      width: 100%; 
     }
   }
   
@@ -193,7 +186,6 @@ main {
     cursor: pointer;
   }
   
-  /* Underline effect */
   .button-style::after {
     content: "";
     position: absolute;
@@ -640,7 +632,6 @@ ul.custom-dash-list li::before {
     margin-top: 50px;
 }
 
-/* Text section */
 .project-info {
     flex: 1;
     margin-top: 100px;
@@ -669,11 +660,3 @@ ul.custom-dash-list li::before {
 }
 
 
-
-  
-
-
-
-/* font-family: "sweet-sans-pro", sans-serif;
-font-weight: 600;
-font-style: normal; */
